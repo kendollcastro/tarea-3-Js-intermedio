@@ -26,8 +26,8 @@ console.log(heading);
   de la lista
 */
 const lista = document.querySelectorAll('li');
-console.log(lista[0]);
-console.log(lista[3]);
+console.log(lista[0].innerText);
+console.log(lista[3].innerText);
 /*
   EJERCICIO C: --------------------------------------------
   
