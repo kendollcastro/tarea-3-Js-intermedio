@@ -50,3 +50,14 @@ console.log(tabla[2]);
   
   Selecciona y loguea la celda que dice CSS
 */
+
+//El  Document.hidden Es una propiedad solo de lectura, retorna un valor Booleano que indica si la pagina esta conciderada oculta o no.
+
+//Definimos a variable del valor booleano
+let boolean = document.hidden;
+
+//
+document.addEventListener("visibilitychange", function() {
+  console.log( document.hidden );
+  // true or false
+});
